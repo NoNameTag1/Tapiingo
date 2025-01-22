@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+@layer base {
+    body {
+
+      @apply text-dynamic; 
+     
+    }
+  }
+  main::-webkit-scrollbar {
+    width: 4px; 
+    background-color: transparent; 
+  }
+  
+  main::-webkit-scrollbar-thumb {
+    background-color: #EFEFFA; 
+    border-radius: 4px; 
+  }
+  
+  main {
+    -ms-overflow-style: none;  
+    scrollbar-width: thin; 
+  }
+  
+  
+ 
+  
+  
+
